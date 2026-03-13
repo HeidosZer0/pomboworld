@@ -1,0 +1,44 @@
+body{
+    --main-color: #ff8030;
+    --secondary-color:#040E4A;
+    margin: 0!important;}
+
+main{
+    margin: 0 10em;}
+
+ul{
+    padding-inline-start: 0px;}
+
+.destaque img{
+    width: 120px;border-radius: 10px;}
+
+nav{
+    background-color: var(--main-color);
+    color:var(--secondary-color);
+    font-weight: 900;
+    font-size: 1em;
+    padding: 0 4em;
+    height:2em;}
+
+nav li{
+    display: inline-block;
+    align-content: center;
+    font-size: 1em;}
+
+nav a{text-decoration:none;
+    padding: 0.5em;
+    min-height: fit-content;}
+
+.destaque li{
+    display:inline-block;}
+
+.contato ul{
+    list-style: none;}
+
+.contato li{
+    display: inline-block;
+    align-content: center;
+    font-size: 1em;}
+
+.contato .svg{
+    width:5vh;}
